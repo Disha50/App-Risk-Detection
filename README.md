@@ -89,7 +89,7 @@ AI-App-Risk-Prediction/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/AI-App-Risk-Prediction.git
+git clone https://github.com/Disha50/AI-App-Risk-Prediction.git
 cd AI-App-Risk-Prediction
 ```
 
