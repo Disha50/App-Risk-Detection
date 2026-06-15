@@ -1,0 +1,2 @@
+users(id, username, password)
+reports(id, user_id, app_name, score)

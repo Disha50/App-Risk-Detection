@@ -1,0 +1,117 @@
+/* ================= FORCE EVERYTHING WHITE ================= */
+* {
+    color: #f9fafb !important;
+}
+
+/* ================= APP BACKGROUND ================= */
+html, body, .stApp {
+    background: radial-gradient(circle at top, #3b1d5a, #05010a) !important;
+}
+
+/* ================= HEADINGS ================= */
+h1, h2, h3, h4, h5, h6 {
+    color: #ffffff !important;
+    font-weight: 700 !important;
+}
+
+/* ================= TEXT / LABELS ================= */
+p, span, label, small, strong, em, li {
+    color: #e5e7eb !important;
+}
+
+/* ================= STREAMLIT SPECIAL ================= */
+[data-testid="stMarkdownContainer"] * {
+    color: #f8fafc !important;
+}
+
+[data-testid="stText"] {
+    color: #f8fafc !important;
+}
+
+[data-testid="stMetricValue"] {
+    color: #ffffff !important;
+    font-size: 30px !important;
+    font-weight: 800 !important;
+}
+
+[data-testid="stMetricLabel"] {
+    color: #c7c9ff !important;
+}
+
+/* ================= INPUT FIELDS ================= */
+input, textarea, select {
+    background-color: #12061f !important;
+    color: #ffffff !important;
+    border: 1px solid #7c3aed !important;
+    border-radius: 12px !important;
+}
+
+input::placeholder, textarea::placeholder {
+    color: #9ca3af !important;
+}
+
+/* ================= BUTTON ================= */
+.stButton > button {
+    background: linear-gradient(135deg, #7c3aed, #9333ea) !important;
+    color: #ffffff !important;
+    font-weight: 600 !important;
+    border-radius: 14px !important;
+    border: none !important;
+    padding: 12px 22px !important;
+    box-shadow: 0 0 25px rgba(147,51,234,0.6);
+}
+
+/* ================= CARD ================= */
+.card {
+    background: linear-gradient(145deg,#2a0e44,#12061f) !important;
+    border-radius: 24px;
+    padding: 26px;
+    box-shadow: 0 0 40px rgba(147,51,234,0.45);
+    margin-bottom: 22px;
+}
+
+/* ================= EXPANDER ================= */
+details > summary {
+    color: #ffffff !important;
+    font-weight: 600 !important;
+}
+
+.streamlit-expanderContent {
+    background: #12061f !important;
+}
+
+/* ================= ISSUE BOX ================= */
+.issue-box {
+    background: linear-gradient(135deg,#1a082b,#12061f) !important;
+    border-left: 4px solid #f43f5e;
+    color: #ffffff !important;
+}
+
+/* ================= TABLE / DATAFRAME ================= */
+thead tr th {
+    background-color: #1a082b !important;
+    color: #ffffff !important;
+}
+
+tbody tr td {
+    background-color: #12061f !important;
+    color: #e5e7eb !important;
+}
+
+/* ================= SIDEBAR ================= */
+section[data-testid="stSidebar"] {
+    background: linear-gradient(180deg,#12061f,#05010a) !important;
+}
+
+section[data-testid="stSidebar"] * {
+    color: #ffffff !important;
+}
+
+/* ================= SCROLLBAR ================= */
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-thumb {
+    background: #7c3aed;
+    border-radius: 10px;
+}
